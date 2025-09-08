@@ -1,0 +1,5 @@
+AuthorizedKeysCommand /opt/pair/pair verify %u %k %t
+AuthorizedKeysCommandUser root
+PasswordAuthentication no
+Port __PORT__
+Subsystem	sftp	/usr/libexec/openssh/sftp-server

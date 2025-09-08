@@ -1,0 +1,16 @@
+{
+  "id": "pairspaces-build",
+  "version": "1.2.5-build",
+  "name": "PairSpaces for DevContainers (Build)",
+  "description": "Installs the PairSpaces CLI and bootstraps the DevContainer into a Space.",
+  "documentationURL": "https://docs.pairspaces.com/spaces/new/container",
+  "keywords": ["pair", "collaborate"],
+  "options": {
+    "token": {
+      "default": "CHANGE_ME",
+      "type": "string",
+      "description": "Authorization token provided by `pair spaces authorize`"
+    }
+  },
+  "postStartCommand": "sudo /usr/bin/supervisord -c /etc/supervisor/supervisord.conf"
+}

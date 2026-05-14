@@ -1,10 +1,8 @@
 {
-  "bootstrap_token": {
+  "no_bootstrap": {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-      "pairspaces": {
-        "token": "test-token"
-      }
+      "pairspaces": {}
     }
   }
 }

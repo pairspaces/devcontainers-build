@@ -1,0 +1,12 @@
+# .codex/config.toml (committed to the repo)
+
+# Project-specific model instructions
+# model_instructions_file = "./AGENTS.md"
+
+# Any extra paths that are safe to write in this specific project
+# (only add if you actually need them)
+[sandbox_workspace_write]
+writable_roots = []
+
+# Project-specific rules (e.g. block deploying from Codex)
+# These layer on top of user rules, not replace them

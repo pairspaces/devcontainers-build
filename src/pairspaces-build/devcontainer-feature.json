@@ -1,6 +1,6 @@
 {
   "id": "pairspaces-build",
-  "version": "3.0.0-build.8",
+  "version": "3.0.1-build",
   "name": "PairSpaces for DevContainers (Build)",
   "description": "Installs the PairSpaces CLI and configures the DevContainer to host a Space.",
   "documentationURL": "https://docs.pairspaces.com/spaces/new",

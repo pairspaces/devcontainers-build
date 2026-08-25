@@ -20,7 +20,7 @@ detect_arch() {
 }
 
 ARCH="$(detect_arch)"
-PAIR_VERSION="2.9.0-build.21"
+PAIR_VERSION="3.0.8-build"
 PAIR_CLI_URL="https://github.com/pairspaces/install/releases/download/v${PAIR_VERSION}/pair_${PAIR_VERSION}_linux_${ARCH}"
 PAIR_CLI_PATH="/opt/pair/pair"
 
